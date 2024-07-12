@@ -2,13 +2,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/tachi123/CAC-Python-Backend-2024">
-    <img src="https://tachi123.github.io/CAC-Python-Backend-2024/static/img/icono-alfajor.png" alt="Logo" width="80" height="80">
+    <img src="https://tachi123.github.io/CAC-Python-Backend-2024/static/imagenes/codoacodo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Backend - CODO a CODO</h3>
   <p align="center">
     Proyecto Desarrollo Web HTML,CSS, JavaScript y Python de Curso Codo a Codo
     <br />
-    <a href="https://tachi123.github.io/CAC-Python-Portfolio-2024/">View Demo</a>
+    <a href="https://tachi123.github.io/CAC-Python-Backend-2024/">View Demo</a>
 </div>
 
 ![GitHub branch status](https://img.shields.io/github/checks-status/tachi123/CAC-Python-Portfolio-2024/main)
