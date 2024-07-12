@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ferretería - Codo a Codo - Backend</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="static/imagenes/codoacodo.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="static/css/header.css">
+        <link rel="stylesheet" href="static/css/inicio.css">
+
+        <!-- https://fontawesome.com/search?o=r&m=free -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+
+        <header-component></header-component>
+
+        <main>
+            <div id="contenedor-inicio">
+                <div class="contenedor-cards">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2> Menú CRUD </h2>
+                            <table>
+                                <tr>
+                                    <td><a href="paginas/listado.html" class="btn">Listado de productos</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="paginas/altas.html" class="btn">Alta de productos</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="paginas/modificaciones.html" class="btn">Modificar datos de productos</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="paginas/listadoEliminar.html" class="btn">Eliminar productos</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="./static/js/config.js"></script>
+        <script src="./static/js/header.js"></script>
+    </body>
+</html>

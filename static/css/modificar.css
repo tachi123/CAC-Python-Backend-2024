@@ -1,0 +1,49 @@
+#app{
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	margin-top: 50px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 400px;
+	background-color: rgb(235, 232, 232);
+	border-radius: 8px;
+}
+
+/* FORMULARIO */
+
+.contactForm {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+}
+
+.form {
+	background-color: rgb(235, 232, 232);
+	width: 600px;
+	min-width: 340px;
+	padding: 10px;
+	box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.btn {
+	justify-content: center;
+	padding: 8px 16px;
+	background-color: #333;
+	text-decoration: none;
+	border-radius: 4px;
+	margin-top: 16px;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background-color: #9867C5;
+	transform: translateY(-2px);
+}
+
+.cancelar{
+	background-color:#ba375e;
+}

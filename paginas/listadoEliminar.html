@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ferretería - Codo a Codo - Backend</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="../static/imagenes/codoacodo.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="../static/css/header.css">
+        <link rel="stylesheet" href="../static/css/inicio.css">
+        <link rel="stylesheet" href="../static/css/eliminar.css">
+
+        <!-- https://fontawesome.com/search?o=r&m=free -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+        <header-component></header-component>
+        
+        <main>
+            <div class="eliminar">
+                <table id="productos-table"> <!-- Se crea una tabla para mostrar los productos. -->
+                    <thead> <!--Encabezado de la tabla con columnas para código,descripción, cantidad, precio y acciones.-->
+                        <tr>
+                            <th>Código</th>
+                            <th>Descripción</th>
+                            <th>Cantidad</th>
+                            <th align="right">Precio</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                    </tbody>
+                </table><br>
+            </div>
+        </main>
+
+        <script src="../static/js/config.js"></script>
+        <script src="../static/js/header.js"></script>
+        <script src="../static/js/listadoEliminar.js"></script>
+    </body>
+</html>

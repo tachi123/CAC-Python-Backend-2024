@@ -1,0 +1,21 @@
+table{
+    padding: 20px;
+    background-color: #2f3240;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+th{
+    text-align: center;
+    color: #fff;
+    border: 1px solid lightslategray;
+    padding: 5px;
+}
+
+td{
+    text-align: center;
+    color: #fff;
+    border: 1px solid lightslategray;
+    padding: 5px;
+}

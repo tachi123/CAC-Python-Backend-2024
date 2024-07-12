@@ -1,0 +1,71 @@
+body {
+    background-image: url(../imagenes/Fondo.jpg);
+    background-size: cover;
+    image-rendering: crisp-edges;
+    background-attachment: fixed;
+}
+
+#contenedor-inicio {
+    padding-top: 78px; /* Ajusta el padding superior para evitar que el contenido se superponga con la barra de navegación */
+}
+
+.contenedor-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    gap: 5px;
+    overflow: auto;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    overflow: auto;
+    text-align: justify;
+}
+
+.card-content h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.card-content .btn {
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-content .btn:hover {
+    background-color: #9867C5;
+    transform: translateY(-2px);
+}
+
+.contenedor-cards .btn {
+    background-color: #6022d2; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-decoration: none; /* Remover subrayado de enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.contenedor-cards .btn:hover {
+    background-color: #2f0577; /* Color de fondo al pasar el mouse */
+    color: #ffffff; /* Color del texto al pasar el mouse */
+}
